@@ -10,9 +10,33 @@
         <div class="container">
             <div class="Calculator">
                 <center>
-                    <h2>Calculator</h2>
+                    <h2 style="color: white;">Calculator</h2>
                     <br/>
                 </center>
+                <div class="clac">
+                    <input placeholder="First value" id="First" name="fvalue"/>
+                    <br/>
+                    <br/>
+                    <input placeholder="Second value" id="Second" name="svalue"/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="buttons">
+                    <div class="functions">
+                        <button onclick="calc('Add')" class="btn btn-warning btnmiddle caps">+</button>
+                        <button onclick="calc('sub')" class="btn btn-warning btnmiddle caps">-</button>
+                        <button onclick="calc('times')" class="btn btn-warning btnmiddle caps">*</button>
+                        <button onclick="calc('div')" class="btn btn-warning btnmiddle caps">/</button>
+                        <button onclick="calc('Percent')" class="btn btn-warning btnmiddle caps">%</button>
+                    </div>
+                    <br/>
+                    <div class="clear">
+                        <button onclick="clearAll()" class="btn btn-primary btnsml caps">clear</button>
+                        <br/> <br/>
+                        <button onclick="backspace()" class="btn btn-primary btnsml caps">Backspace</button>
+                    </div>
+                </div>
+                    <div class="output" style="color: white;">Output</div>
             </div>
         </div>
     </body>
