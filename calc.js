@@ -15,7 +15,7 @@
                 out=`Sum of two numbers is ${out}`
             } 
             else {
-                if(opt=='Sub') {
+                if(opt=='sub') {
                     out=Number(a)-Number(b);
                     out=`Subtraction of two numbers is ${out}`
                 }
@@ -25,7 +25,7 @@
                         out=`Multiplication of two numbers is ${out}`
                     }
                     else {
-                        if(opt=='Div') {
+                        if(opt=='div') {
                             out=Number(a)/Number(b);
                             out=`Division of two numbers is ${out}`
                     }
@@ -46,7 +46,7 @@
 
 function clear() {
     var c="output";
-    document.getElementById('first').value="";
-    document.getElementById('second').value="";
+    document.getElementById('First').value="";
+    document.getElementById('Second').value="";
     document.getElementsByClassName('output')[0].innerText=`${C}`;
 }
