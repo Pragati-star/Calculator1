@@ -44,9 +44,26 @@
     output.innerText=out
 }
 
-function clear() {
+function clearAll() {
     var c="output";
     document.getElementById('First').value="";
     document.getElementById('Second').value="";
     document.getElementsByClassName('output')[0].innerText=`${C}`;
+}
+
+var onclick=false;
+function backspace() {
+    if(onclick==false) {
+        onclick=true;
+        var c="Output";
+        document.getElementsByClassName('output')[0].innerText=`$(c)`;
+    }
+    else {
+        var c = "Output";
+        document.getElementById('second').value="";
+    }
+}
+function backspace() {
+    var c="Output";
+    document.getElementById('first').value="";
 }

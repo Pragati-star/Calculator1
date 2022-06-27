@@ -23,3 +23,9 @@ body {
     width: 70%;
     display: inline-block;
 }
+.clear {
+    padding: 20px;
+}
+.btn-primary{
+    background-color: #505050;
+}
